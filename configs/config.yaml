@@ -1,0 +1,26 @@
+time:
+  freq_minutes: 60           # data resolution (minutes)
+  history_hours: 336         # 14 days of history
+  forecast_horizon_hours: 24
+
+battery:
+  capacity_kwh: 100.0
+  soc_init_kwh: 50.0
+  p_charge_max_kw: 50.0
+  p_discharge_max_kw: 50.0
+  eff_c: 0.95
+  eff_d: 0.95
+
+grid:
+  allow_export: true
+  export_limit_kw: 100.0
+
+simulation:
+  seed: 42
+  base_demand_kw: 80.0
+  demand_amp_kw: 40.0
+  solar_kw_peak: 120.0
+  wind_kw_peak: 40.0
+  ci_base: 0.35                 # kgCO2/kWh
+  ci_amp: 0.20                  # diurnal variation
+  timezone: "UTC"

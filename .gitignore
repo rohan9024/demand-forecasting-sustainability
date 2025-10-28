@@ -1,0 +1,68 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.myenv/
+myenv/
+
+# Jupyter / VSCode / PyCharm related
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Logs and system files
+*.log
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# OS and editor junk
+*.swp
+*.bak
+*.tmp
+
+# Streamlit
+.streamlit/
+
+# Python metadata
+*.egg-info/
+dist/
+build/
+
+# Model and cache files
+*.joblib
+*.pkl
+*.npy
+*.npz
+logs/
+checkpoints/
+models/
+
+# FastAPI or app-generated files
+*.db
+__output__/
+instance/
+temp_data/
+
+# Local overrides
+.env
+.env.*
+
+# For schedule downloads
+*.csv
+
+# Docker / containers (if using)
+docker-compose.override.yml
+*.pid
+
+# Windows-specific
+*.exe
+*.dll
+*.cmd
+*.bat
