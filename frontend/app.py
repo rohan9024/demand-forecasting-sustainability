@@ -13,7 +13,9 @@ import streamlit as st
 
 
 # Prefer 127.0.0.1 on Windows to avoid localhost edge cases
-BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+# BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://backend-rxf7.onrender.com")
+
 PARSED = urlparse(BACKEND_URL)
 BACKEND_HOST = PARSED.hostname or "127.0.0.1"
 BACKEND_PORT = PARSED.port or 8000
